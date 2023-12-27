@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    background-color: black;
+    align-items:end;
+    height: 100vh;
+    
+}
+footer{ 
+    display:flex;
+    position: absolute;
+    justify-content: space-between;
+    background-color:navy;
+    padding: 40px 0px;
+    width: 100%;
+
+}
+#left{
+    width: 80%;
+    display: flex;
+}
+#right{
+    display:flex;
+    width: 15%;
+  
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 2px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+li{
+    color: white;
+}
+h5{
+    color: bisque;
+    margin-top: 0;
+}
